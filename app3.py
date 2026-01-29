@@ -1498,7 +1498,6 @@ def app5():
             bulletgraph(group.values.tolist(), limits=cultivo_limits[cultivo], labels=[], size=(8,5),
                         label_color="black", bar_color=colors[0], target_color=colors[1], show_title=False)
             plt.box(False)
-            st.set_option('deprecation.showPyplotGlobalUse', False)
             right.pyplot()
       
 
