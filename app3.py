@@ -1307,7 +1307,7 @@ def app5():
             df_totales_styled = df_totales.style \
                 .set_table_styles([{'selector': 'th', 'props': [('text-align', 'right')]}]) \
                 .set_properties(**{'font-size': '13px', 'text-align': 'right'}) \
-                .hide_index()
+                .hide()
             col1.table(df_totales_styled)
         
         left, center, right = st.columns(3)
