@@ -104,8 +104,8 @@ def app():
     ternera190=int(ternera.promedio[16][2:6])
     ternera210=int(ternera.promedio[17][2:6])
     vaquillona250=int(vaquillona.promedio[18][2:6])
-    vaquillona290=int(vaquillona.promedio[19][2:6])
-    vaquillona291=int(vaquillona.promedio[20][2:6])
+    vaquillona290=int(vaquillona.promedio[18][2:6])
+    vaquillona291=int(vaquillona.promedio[28][2:6])
     vacas= 982634 #int(vaca.promedio[22][2:8])
     def constructor():
         def valores():
