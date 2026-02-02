@@ -205,7 +205,7 @@ if response.status_code == 200:
             valores_rosario["pp" + cultivo] = float(valor_rosario)
 
 # Extraer la fecha
-fecha1 = pizarra_data["fecha"] #"11/04/2024" #   Sacar fecha y numeral y tabular
+fecha1 = "02/02/2026" #pizarra_data["fecha"] "11/04/2024" #   Sacar fecha y numeral y tabular
 
 # Asignar los valores a las variables con los nombres personalizados
 pptrigo = valores_rosario["pptrigo"]    
