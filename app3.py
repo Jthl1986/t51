@@ -68,7 +68,7 @@ valormaxc = 122000 #valor maximo cosecha
 valors = 60000 #valor referencia siembra
 
 #CARGA RINDES HISTÓRICOS
-url = "https://raw.githubusercontent.com/Jthl1986/T1/main/Estimaciones.csv"
+url = "https://raw.githubusercontent.com/Jthl1986/T1/main/Estimaciones11.csv"
 dfr = pd.read_csv(url, encoding='ISO-8859-1', sep=';')
 
 
@@ -208,11 +208,11 @@ if response.status_code == 200:
 fecha1 = "02/02/2026" #pizarra_data["fecha"] "11/04/2024" #   Sacar fecha y numeral y tabular
 
 # Asignar los valores a las variables con los nombres personalizados
-pptrigo = valores_rosario["pptrigo"]    
-ppsoja = valores_rosario["ppsoja"]     
-ppmaiz = valores_rosario["ppmaiz"]     
-ppgirasol = valores_rosario["ppgirasol"] 
-ppsorgo = valores_rosario["ppsorgo"]     
+pptrigo = 258800 #valores_rosario["pptrigo"]    
+ppsoja = 430500 #valores_rosario["ppsoja"]     
+ppmaiz = 251300 #valores_rosario["ppmaiz"]     
+ppgirasol = 535225 #valores_rosario["ppgirasol"] 
+ppsorgo = 257450 #valores_rosario["ppsorgo"]        
 
 
 def app1():
