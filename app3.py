@@ -1285,7 +1285,7 @@ def app5():
             col1, col2 = container.columns([3 , 1])
             
             # Mostrar el gráfico en las dos primeras columnas
-            col1.plotly_chart(fig, use_container_width=True, padding=0)
+            col1.plotly_chart(fig, use_container_width=True)
             col2.empty()
             
         margenb = mbtotal/ingtotal
